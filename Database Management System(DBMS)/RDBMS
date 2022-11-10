@@ -1,0 +1,35 @@
+What is RDBMS:
+RDBMS stands for Relational Database Management System.
+All modern database management systems like SQL, MS SQL Server, IBM DB2, ORACLE, My-SQL, and Microsoft Access are based on RDBMS.
+It is called Relational Database Management System (RDBMS) because it is based on the relational model introduced by E.F. Codd.
+
+What is table/Relation?
+Everything in a relational database is stored in the form of relations. The RDBMS database uses tables to store data. A table is a collection of related data entries and contains rows and columns to store data. Each table represents some real-world objects such as person, place, or event about which information is collected.
+
+What is a row?
+A row of a table is also called a record or tuple. It contains the specific information of each entry in the table. It is a horizontal entity in the table. 
+
+What is a column/attribute?
+A column is a vertical entity in the table which contains all information associated with a specific field in a table.
+
+What is data item/Cells?
+The smallest unit of data in the table is the individual data item. It is stored at the intersection of tuples and attributes.
+
+What is Degree?
+The total number of attributes that comprise a relation is known as the degree of the table.
+
+What is Cardinality?
+The total number of tuples at any one time in a relation is known as the table's cardinality. The relation whose cardinality is 0 is called an empty table.
+
+What is Domain?
+The domain refers to the possible values each attribute can contain. It can be specified using standard data types such as integers, floating numbers, etc.
+
+NULL Values
+The NULL value of the table specifies that the field has been left blank during record creation. It is different from the value filled with zero or a field that contains space.
+
+What is Data Integrity?
+There are the following categories of data integrity exist with each RDBMS:
+Entity integrity: It specifies that there should be no duplicate rows in a table.
+Domain integrity: It enforces valid entries for a given column by restricting the type, the format, or the range of values.
+Referential integrity: specifies that rows cannot be deleted, which are used by other records.
+User-defined integrity: It enforces some specific business rules defined by users. These rules are different from the entity, domain, or referential integrity.
